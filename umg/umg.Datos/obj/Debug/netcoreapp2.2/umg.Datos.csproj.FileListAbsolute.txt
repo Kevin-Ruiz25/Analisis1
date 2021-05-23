@@ -1,0 +1,5 @@
+C:\Project\umg\umg.Datos\bin\Debug\netcoreapp2.2\umg.Entidades.dll
+C:\Project\umg\umg.Datos\obj\Debug\netcoreapp2.2\umg.Datos.csprojAssemblyReference.cache
+C:\Project\umg\umg.Datos\obj\Debug\netcoreapp2.2\umg.Datos.AssemblyInfoInputs.cache
+C:\Project\umg\umg.Datos\obj\Debug\netcoreapp2.2\umg.Datos.AssemblyInfo.cs
+C:\Project\umg\umg.Datos\obj\Debug\netcoreapp2.2\umg.Datos.csproj.CoreCompileInputs.cache
