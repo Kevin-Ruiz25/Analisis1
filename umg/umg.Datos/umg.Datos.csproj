@@ -12,11 +12,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Mapping\Ventas\" />
-    <Folder Include="Mapping\Usuario\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\umg.Entidades\umg.Entidades.csproj" />
   </ItemGroup>
 

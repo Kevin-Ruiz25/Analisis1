@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace umg.Entidades.Ventas
@@ -16,8 +17,9 @@ namespace umg.Entidades.Ventas
 
         //Llave Foranea
         public int CantidadDetalleIngreso { get; set; }
+        [Required]
 
         public decimal precioDetalleIngreso { get; set; }
-
+        [Required]
     }
 }

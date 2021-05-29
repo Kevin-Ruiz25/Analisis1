@@ -13,6 +13,7 @@ namespace umg.Datos.Mapping.Almacen
         {
             builder.ToTable("Categoria")
                 .HasKey(c => c.idCategoria);
+
             builder.Property(c => c.Nombre)
                 .HasMaxLength(50);
             builder.Property(c => c.descripcion)

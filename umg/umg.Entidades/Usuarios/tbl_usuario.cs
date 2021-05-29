@@ -8,24 +8,28 @@ namespace umg.Entidades.Usuarios
    public class tbl_usuario
     {
         public int idUsuario { get; set; }
-        [Required]
-        [StringLength(100, MinimumLength = 10)]
+      
 
         public int idRol { get; set; }
 
         public int idTelefono { get; set; }
 
+
         public string nombreUsuario { get; set; }
+        [Required]
+        [StringLength(100, MinimumLength = 3, ErrorMessage = "el nombre de usuario no debe de tener mas de 100 caracteres, por favor validar")]
 
         public int numDocumentoUsuario { get; set; }
 
         public string emailUsuario { get; set; }
-
+        [Required]
         [DataType(DataType.EmailAddress)]
+        
 
-        public string passwordHash { get; set; }
 
-        public string passwordSalt { get; set; }
+        public byte passwordHash { get; set; }
+
+        public byte passwordSalt { get; set; }
 
     }
 

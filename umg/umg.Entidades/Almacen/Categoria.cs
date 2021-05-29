@@ -7,13 +7,15 @@ namespace umg.Entidades.Almacen
 {
     public class Categoria
     {
-        public static int idcategoria { get; set; }
         public int idCategoria { get; set; }
         [Required]
-        [StringLength(50, MinimumLength = 3, ErrorMessage = "Error")]
+        [StringLength(50, MinimumLength = 3, ErrorMessage = "Error por favor validar")]
         public string Nombre { get; set; }
+        [Required]
         [StringLength(256)]
         public string descripcion { get; set; }
+        [Required]
+        [StringLength(50, MinimumLength =3,ErrorMessage ="La descripcion no debe tener un maximo de 50 caracteres, validar por favor")]
         public bool condicion { get; set; }
 
          }
